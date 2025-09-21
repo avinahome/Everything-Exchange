@@ -14,16 +14,19 @@ import com.everythingexchange.app.ui.screens.main.MainScreen
 import com.everythingexchange.app.viewmodel.AuthViewModel
 import com.everythingexchange.app.utils.SessionManager
 import androidx.compose.ui.platform.LocalContext
+import com.everythingexchange.app.EverythingExchangeApplication
 
 @Composable
 fun EverythingExchangeApp(
     navController: NavHostController = rememberNavController()
 ) {
     val context = LocalContext.current
+    val application = context.applicationContext as EverythingExchangeApplication
     val sessionManager = SessionManager(context)
+    
     val authViewModel: AuthViewModel = viewModel { 
         AuthViewModel(
-            userRepository = TODO("Initialize UserRepository"),
+            userRepository = application.userRepository,
             sessionManager = sessionManager
         )
     }
