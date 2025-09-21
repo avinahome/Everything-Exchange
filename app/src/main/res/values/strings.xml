@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Everything Exchange</string>
+    <string name="inventory">Inventory</string>
+    <string name="listings">Listings</string>
+    <string name="discover">Discover</string>
+    <string name="offers">Offers</string>
+    <string name="profile">Profile</string>
+    <string name="add_item">Add Item</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="select_photo">Select Photo</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_description">Description</string>
+    <string name="item_price">Price</string>
+    <string name="item_category">Category</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="export_csv">Export CSV</string>
+    <string name="export_pdf">Export PDF</string>
+    <string name="make_offer">Make Offer</string>
+    <string name="accept_offer">Accept Offer</string>
+    <string name="decline_offer">Decline Offer</string>
+    <string name="create_listing">Create Listing</string>
+    <string name="my_listings">My Listings</string>
+    <string name="search">Search</string>
+    <string name="nearby_items">Nearby Items</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="location">Location</string>
+    <string name="create_account">Create Account</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="camera_permission_required">Camera permission is required to take photos</string>
+    <string name="storage_permission_required">Storage permission is required to save photos</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="item_saved">Item saved successfully</string>
+    <string name="item_deleted">Item deleted successfully</string>
+    <string name="export_completed">Export completed successfully</string>
+    <string name="offer_sent">Offer sent successfully</string>
+    <string name="offer_accepted">Offer accepted</string>
+    <string name="offer_declined">Offer declined</string>
+</resources>
